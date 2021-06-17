@@ -5,3 +5,4 @@ public interface Resizeable {
 	// method
 	public double resize(double s);
 }
+	

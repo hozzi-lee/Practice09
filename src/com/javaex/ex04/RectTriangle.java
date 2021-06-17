@@ -7,7 +7,7 @@ public class RectTriangle extends Shape {
 	private double height;
 
 
-
+	
 	// constructors
 	public RectTriangle(double width, double height) {
 		this.width = width;

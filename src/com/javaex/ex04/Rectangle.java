@@ -6,7 +6,7 @@ public class Rectangle extends Shape implements Resizeable {
 	private double width;
 	private double height;
 
-
+	
 
 	// constructors
 	public Rectangle(double width, double height) {
