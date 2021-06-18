@@ -5,7 +5,7 @@ public abstract class Shape {
 	// field
 	private int countSides;
 
-	
+
 
 	// constructors
 	public Shape() {

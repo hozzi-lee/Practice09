@@ -7,7 +7,7 @@ public class RectTriangle extends Shape {
 	private double height;
 
 
-	
+
 	// constructors
 	public RectTriangle(double width, double height) {
 		this.width = width;
@@ -17,7 +17,7 @@ public class RectTriangle extends Shape {
 
 	// method
 	public double getArea() {
-		return width * height * (1 / 2);
+		return width * height * (0.5);
 	}
 
 	public double getPerimeter() {

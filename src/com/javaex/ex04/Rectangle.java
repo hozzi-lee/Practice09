@@ -6,7 +6,7 @@ public class Rectangle extends Shape implements Resizeable {
 	private double width;
 	private double height;
 
-	
+
 
 	// constructors
 	public Rectangle(double width, double height) {
@@ -25,9 +25,9 @@ public class Rectangle extends Shape implements Resizeable {
 		return ( width + height ) * 2;
 	}
 
-	public double resize(double e) {
-		return this.width = width * e;
-		//		double h = this.height = height * e;
+	public void resize(double e) {
+		this.width = width * e;
+		this.height = height * e;
 	}
 
 
