@@ -18,7 +18,7 @@ public class GoodsApp {
 				for ( Goods gg : gList ) {
 					gg.showInfo();
 				}
-				// System.out.println("모든 상품의 개수는 " + 미완성 + "개입니다.");
+				System.out.println("모든 상품의 개수는 " + Goods.allCount() + "개입니다.");
 				break;
 			}
 			String[] goodsArray = goods.split(",");
@@ -26,7 +26,6 @@ public class GoodsApp {
 			int count = Integer.parseInt(goodsArray[2]);
 			Goods g = new Goods(goodsArray[0], price, count);
 			gList.add(g);
-			
 		}
 
 		scan.close();

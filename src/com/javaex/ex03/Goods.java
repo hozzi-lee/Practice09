@@ -6,7 +6,7 @@ public class Goods {
 	private String name;
 	private int price;
 	private int count;
-	private int allCount;
+	private static int allCount;
 
 
 
@@ -21,14 +21,14 @@ public class Goods {
 		this.allCount += count;
 	}
 
-	
+
 
 	// method getter/setter
-	public int allCount() {
+	public static int allCount() {
 		return allCount;
 	}
-	
-	
+
+
 	public void setName(String name) {
 		this.name = name;
 	}
